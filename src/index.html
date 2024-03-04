@@ -1,0 +1,59 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Donut</title>
+
+    <style>
+        *,body,html{
+            margin: 0;
+            padding: 0;
+        }
+        .nav{
+            position: absolute;
+            width: 100%;
+            top: 0px;
+        }
+        .left{
+            position: absolute;
+            top: 30px;
+            left: 30px;
+            color: #ffffff;
+            font-family: sans-serif;
+            font-size: 20px;
+            font-weight: 700;
+        }
+        .right{
+            position: absolute;
+            top: 30px;
+            right: 30px;
+            font-family: sans-serif;
+            font-size: 20px;
+            font-weight: 700;
+            color: #ffffff;
+        }
+        .main{
+            position: absolute;
+            top: calc(50% - 100px);
+            left: calc(50% - 350px);
+            font-size: 200px;
+            font-family: sans-serif;
+            font-weight: 800;
+            color: #ffffff;
+            z-index: -200px;
+        }
+    </style>
+</head>
+<body>
+
+    <div class="nav">
+        <div class="left">the.DONUT</div>
+        <div class="right">Sign In</div>
+    </div>
+
+    <div class="main">DONUT</div>
+
+    <script src="./js/scripts.js" type="module"></script>
+</body>
+</html>
